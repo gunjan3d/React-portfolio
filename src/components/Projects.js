@@ -124,23 +124,6 @@ export const Projects = () => {
         <img className="background-image-right" src={colorSharp2}></img>
       </section>
       <center>
-        <a href="https://www.linkedin.com/in/gunjan-sarode-b19ba9225/">
-          <button
-            style={{
-              backgroundColor: "purple", // green
-              fontSize: 32,
-              paddingVertical: 50,
-              paddingHorizontal: 50,
-              padding: 12,
-              borderRadius: 7,
-              cursor: "pointer",
-              color: "white",
-            }}
-            onClick={() => console.log("button clicked")}
-          >
-            Download Resume
-          </button>
-        </a>
       </center>
     </>
   );
